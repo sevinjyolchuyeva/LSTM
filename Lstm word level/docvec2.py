@@ -1,3 +1,5 @@
+'I used that website----   http://linanqiu.github.io/2015/10/07/word2vec-sentiment/   '
+
 from gensim import utils
 from gensim.models.doc2vec import LabeledSentence
 from gensim.models import Doc2Vec
@@ -54,18 +56,6 @@ class LabeledLineSentence(object):
         shuffle(self.sentences)
         return self.sentences
 
-		
-#path1='C:/Users/Agil/Desktop/Don_Q.txt'
-#path2='C:/Users/Agil/Desktop/Brothers.txt'
-'''path3='C:/Users/Agil/Desktop/Don_test.txt'
-path4='C:/Users/Agil/Desktop/Brot_test.txt'
-
-#text1 = open(path1).read().lower()
-text2 = open(path2).read().lower()
-text1_test = open(path3).read().lower()
-text2_test = open(path4).read().lower()	
-print (text2_test)
-'''
 
 sources = {'Don_test.txt':'TEST_text1', 'Brothers_test.txt':'TEST_text2', 'Don_Q.txt':'TRAIN1', 'Brothers.txt':'TRAIN2','Val_don.txt':'val1', 'Val_bro.txt':'val2', 'example_Don.txt':'example' }
 
