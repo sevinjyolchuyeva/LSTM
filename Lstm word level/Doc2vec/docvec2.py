@@ -1,3 +1,4 @@
+'I used that website: http://linanqiu.github.io/2015/10/07/word2vec-sentiment/
 from gensim import utils
 from gensim.models.doc2vec import LabeledSentence
 from gensim.models import Doc2Vec
@@ -165,9 +166,4 @@ numpy.set_printoptions(threshold=sys.maxsize)
 print( new_data)
 sys.stdout.close()
 
-
-classifier = LogisticRegression()
-classifier.fit(train_arrays, train_labels)
-score= classifier.score(test_x, test_y)
-print('score: ', score)
 
