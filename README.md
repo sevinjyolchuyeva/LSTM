@@ -1,6 +1,6 @@
 # Task_LogMeln
 # For task_Logistic_Regression.ipynb
-Requirments:
+Requirments: /n
 Python 3.6
 Sklearn (version 0.18.1)
 
