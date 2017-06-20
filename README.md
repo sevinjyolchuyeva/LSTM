@@ -1,4 +1,4 @@
-# Task_LogMeln
+
 # For task_Logistic_Regression.ipynb
 Requirments: 
 Python 3.6,
